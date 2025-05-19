@@ -342,6 +342,7 @@ min-height: fit-content;
 .button-color-1:hover, .button-color-2:hover {
     cursor: pointer;
     background: rgb(74, 100, 66);
+    color: white;
 }
 
 /*
