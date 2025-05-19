@@ -449,12 +449,13 @@ min-height: fit-content;
 /* Projects section */
 
 #projects {
-    height: 464vh;
+    height: 480vh;
+    justify-content: center;
 }
 
 .project-img {
     border-radius: 2rem 2rem 0 0;
-    width: 70vh;
+    width: 80vh;
     object-fit: cover;
 }
 
@@ -484,9 +485,9 @@ min-height: fit-content;
     border-color: rgb(163,163,163);
     padding: 0;
     min-height: fit-content;
-    height: 939px;
+    height: 942px;
     margin-bottom: 3rem;
-    width: 70vh;
+    width: 80vh;
 }
 
 .details-container3 {
@@ -498,9 +499,9 @@ min-height: fit-content;
     border-color: rgb(163,163,163);
     padding: 0;
     min-height: fit-content;
-    height: 939px;
+    height: 942px;
     margin-bottom: 3rem;
-    width: 70vh;
+    width: 80vh;
 }
 
 .article-container {
@@ -533,10 +534,12 @@ min-height: fit-content;
 
 .experience-details-container {
     margin-top: 2rem;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     column-count: 2;
-    column-gap: 3rem;
+    column-gap: 3.5rem;
+    min-height: fit-content;
     height: 70vh;
     width: 100%;
 }
