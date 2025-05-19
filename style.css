@@ -435,9 +435,14 @@ min-height: fit-content;
     flex: 1;
     background: white;
     border-radius: 2rem;
+    text-align: center;
+
+    /*
     border: rgb(85, 85, 85) 0.1rem solid;
     border-color: rgb(163,163,163);
-    text-align: center;
+    */
+    
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 .section-container {
@@ -481,13 +486,18 @@ min-height: fit-content;
     position: relative;
     background: white;
     border-radius: 2rem;
-    border: rgb(85, 85, 85) 0.1rem solid;
-    border-color: rgb(163,163,163);
     padding: 0;
     min-height: fit-content;
     height: 942px;
     margin-bottom: 3rem;
     width: 80vh;
+
+    /*
+    border: rgb(85, 85, 85) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    */
+    
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 .details-container3 {
@@ -495,13 +505,18 @@ min-height: fit-content;
     position: relative;
     background: white;
     border-radius: 2rem;
-    border: rgb(85, 85, 85) 0.1rem solid;
-    border-color: rgb(163,163,163);
     padding: 0;
     min-height: fit-content;
     height: 942px;
     margin-bottom: 3rem;
     width: 80vh;
+
+    /*
+    border: rgb(85, 85, 85) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    */
+    
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 .article-container {
@@ -578,12 +593,18 @@ min-height: fit-content;
     font-size: small;
     color: rgb(85, 85, 85);
     background-color: white;
-    border: rgb(85, 85, 85) 0.1rem solid;
-    border-color: rgb(163,163,163);
+    
     height: 2.5rem;
     margin-bottom: 1rem;
     width: 100%;
     padding: 0;
+
+    /*
+    border: rgb(85, 85, 85) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    */
+    
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 /* Contact section */
@@ -603,12 +624,17 @@ min-height: fit-content;
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(85, 85, 85) 0.1rem solid;
-    border-color: rgb(163,163,163);
     background: white;
     margin: 2rem;
     gap: 3rem;
     padding: 0.5rem;
+
+    /*
+    border: rgb(85, 85, 85) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    */
+
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact-info-container {
@@ -616,7 +642,7 @@ min-height: fit-content;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin: 1.5rem;
+    margin: 3rem;
 }
 
 .contact-info-container p {
