@@ -16,7 +16,7 @@ const zoomResetButton = document.getElementById("zoom-reset");
 const zoomLevel = document.getElementById("zoom-level");
 
 const projectImages = document.querySelectorAll(
-    ".project-img, .project-img2, .project-img3"
+    ".project-img, .project-img2, .project-img3, .project-img-4"
 );
 
 let scale = 1;
